@@ -27,7 +27,7 @@ class Localvault < Formula
   end
 
   def install
-    bin.install Dir["*/localvault"].first => "localvault"
+    bin.install "localvault"
   end
 
   test do
