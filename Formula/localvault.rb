@@ -1,28 +1,28 @@
 class Localvault < Formula
   desc "Local secret vault unlocked by password, with agent-safe output redaction"
   homepage "https://github.com/exu/localvault"
-  version "0.1.2"
+  version "0.1.3"
   license :cannot_represent
 
   on_macos do
     on_arm do
       url "https://github.com/exu/localvault/releases/download/v#{version}/localvault_v#{version}_darwin_arm64.tar.gz"
-      sha256 "3d14e70532fe4134528405dc90a9f63ff6fc61b3b08082dc936ca375417b0e5e"
+      sha256 "d1eb6c3506c150c9b1c9867ab764f51a8d078e1f75da4d11395732645610af24"
     end
     on_intel do
       url "https://github.com/exu/localvault/releases/download/v#{version}/localvault_v#{version}_darwin_amd64.tar.gz"
-      sha256 "6af6ffbd1cfac524d5e5fe62c6533b352555f331d636ab01ab9bb1fef24ba488"
+      sha256 "e1c10b9c6c5c67240e1354b3e1ad8e924ee31dfa39975f54d9e11c92d1dd2e67"
     end
   end
 
   on_linux do
     on_arm do
       url "https://github.com/exu/localvault/releases/download/v#{version}/localvault_v#{version}_linux_arm64.tar.gz"
-      sha256 "ad6f2c53d8774dfa5f60e34b3ae367c070556f2ec46209c8fd7d31c7ae72b13a"
+      sha256 "7e4ef0c103b52915f60f9a10575e8a0bbaf324e4a896d3334ea62192cd02305b"
     end
     on_intel do
       url "https://github.com/exu/localvault/releases/download/v#{version}/localvault_v#{version}_linux_amd64.tar.gz"
-      sha256 "11ea55e5d8e3c860cad0b15eae9f8cdfa3b7213ba1e072abdb57ecc6c6855fd0"
+      sha256 "1933ebd4419067e944e47579d7d3e9e5c04292d8410c6b5456234c99825ff1c1"
     end
   end
 
